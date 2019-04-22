@@ -1,0 +1,24 @@
+{
+  "name": "Sample",
+  "version": "1.4.0",
+  "subversion": {
+    "toolkit": "0.2.2"
+  },
+  "description": "Quickapp Samples",
+  "scripts": {
+    "server": "hap server",
+    "postinstall": "hap postinstall",
+    "debug": "hap debug",
+    "build": "hap build",
+    "release": "hap release",
+    "watch": "hap watch"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.2.0",
+    "catching": "^1.0.2",
+    "hap-toolkit": "^0.2.2",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "qrcode-js": "0.0.2"
+  }
+}
